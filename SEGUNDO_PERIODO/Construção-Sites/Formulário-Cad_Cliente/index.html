@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="" name="cadastro" method="get" target="_blank">
+        <label for="N">Nome do Cliente:</label>
+        <input type="text" name="nome" id="N" placeholder="Insira um nome"><br><br>
+
+        <label for="SN">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="SN" placeholder="6 digitos" size="3" maxlength="6"><br><br>
+        
+        <label for="em">E-mail</label>
+        <input type="email" name="email" id="em" placeholder="E-mail com @"><br><br>
+
+        <label for="quant">Quantidade</label>
+        <input type="number" name="quant" id="quant" step="0.5" max="50" min="0" value="15"><br><br>
+
+        Informe a Idade: <br>
+        <input type="radio" name="idade" id="id05" value="5">
+
+        <label for="id05">5 a 9 anos</label>
+        <input type="radio" name="idade" id="id10" value="10">
+
+        <label for="id10">10 a 19</label><br>
+        <input type="radio" name="idade" id="id20" value="20">
+
+        <label for="id10">20 a 49</label><br>
+        <input type="radio" name="idade" id="id50" value="50">
+
+        <label for="id50">Acima de 50</label><br><br>
+
+        Informe o meio de transporte: <br>
+        <input type="checkbox" name="transporte" id="carro" value="Carro">
+        <label for="carro">Carro</label>
+
+        <input type="checkbox" name="transporte" id="onibus" value="onibus">
+        <label for="onibus">Ônibus</label>
+
+        <input type="checkbox" name="transporte" id="bicicleta">
+    </form>
+</body>
+</html>
