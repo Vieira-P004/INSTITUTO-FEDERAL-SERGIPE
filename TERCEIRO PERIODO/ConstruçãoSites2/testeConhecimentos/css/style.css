@@ -23,8 +23,30 @@ header{
     justify-content: space-between;
 }
 
-header h3{
+header h1{
     color: #ffffff;
+}
+
+nav{
+    background-color: #0058D1;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    margin: 20px 120px;
+    background-color: #054970;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover{
+    transform: translateY(-2px);
 }
 
 #menu li, a{
@@ -32,7 +54,7 @@ header h3{
     text-decoration: none;
     color: #ffffff;
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 
 img{
@@ -44,7 +66,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 200px 0px;
+    margin: 150px 0px;
 }
 
 .card{
